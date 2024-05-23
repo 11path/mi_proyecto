@@ -1,0 +1,13 @@
+{
+    "name": "mi_proyecto/nombre-proyecto",
+    "description": "Proyecto de ejemplo con configuración de entorno y conexión a base de datos",
+    "version": "1.0.0",
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Appcomposer": "app/"
+        }
+    }
+}
